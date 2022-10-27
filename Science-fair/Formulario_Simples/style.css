@@ -1,0 +1,117 @@
+body{
+font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+background-image: url(BackGround.jpg);
+color: white;
+}
+
+input[type="file"] {
+display: none;
+}
+
+.buttonPic {
+width: 110px;
+height: 110px;
+background-color: white;
+border-radius: 10px;
+cursor: pointer;
+font-size: large;
+}
+
+.personData {
+display: flex;
+flex-direction: column;
+margin-top: 1px;
+padding-top: 4px;
+padding-right: 4px;
+padding-left: 4px;
+padding-bottom: 4px;
+margin-right: 1px;
+margin-left: 15px;
+margin-bottom: 1px;
+border-bottom-width: 2px;
+
+}
+
+p {
+font-weight: 500;
+}
+
+fieldset {
+padding-right: 1px;
+padding-top: 1px;
+padding-bottom: 1px;
+padding-left: 1px;
+margin-top: 2px;
+margin-bottom: 2px;
+margin-left: 2px;
+margin-right: 2px;
+border-right-width: 1px;
+border-top-width: 1px;
+border-left-width: 1px;
+border-bottom-width: 1px;
+border-radius: 8px;
+background-color: rgba(146, 26, 237, 0.053);
+}
+
+#externo {
+margin: 25px;
+}
+
+.inputs {
+width: 20%;
+padding: 10px;
+border: none;
+margin-bottom: 10px;
+border-radius: 50px;
+}
+
+.inputGroup {
+display: flex;
+flex-direction: row;
+align-items: stretch;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-right: 200px;
+}
+
+.choiceInput {
+width: 20%;
+padding: 2px;
+margin-bottom: 10px;
+border-radius: 8px;
+}
+
+.footerButtons {
+display: flex;
+flex-direction: row;
+margin-right: 100px;
+}
+
+#resetButton {
+padding-right: 15px;
+margin-left: 15px;
+width: 34%;
+}
+
+.inputsEnd {
+width: 30%;
+padding: 5px;
+border: none;
+margin-bottom: 2px;
+border-radius: 8px;
+border-left: 2px;
+}
+
+.footerDivField {
+display: flex;
+flex-direction: column;
+margin-top: 1px;
+padding-top: 4px;
+padding-right: 4px;
+padding-left: 4px;
+padding-bottom: 4px;
+margin-right: 1px;
+margin-left: 15px;
+margin-bottom: 25px;
+border-bottom-width: 2px;
+}

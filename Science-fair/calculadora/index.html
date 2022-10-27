@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="global">
+        <main class="content">
+            <div class="calc-content">
+                <div></div>
+                <div class="head">
+                    <div name="display-calc" id="displayCalc" style="overflow: hidden;">0</div>
+                </div>
+                <button id="dev" class="numbers">dev</button>
+                <div class="button-content">
+                    <table class="table-button">
+                        <tr>
+                            <td>
+                                <!--table 1-->
+                                <table>
+                                    <tr>
+                                        <td><button class="numbers" value="7" onclick="insert('7')">7</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><button class="numbers" value="8" onclick="insert('8')">8</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><button class="numbers" value="9" onclick="insert('9')">9</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><button class="specials" onclick="delet()">DEL</button></td>
+                                    </tr>
+                                </table>
+                                <!--table 2-->
+                                <table>
+                                    <tr>
+                                        <td><button class="numbers"  value="4" onclick="insert('4')">4</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><button class="numbers"  value="5" onclick="insert('5')">5</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><button class="numbers"  value="6" onclick="insert('6')">6</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><button class="numbers"  value="+" onclick="insert('+')">+</button></td>
+                                    </tr>
+                                </table>
+                                <!--table 3-->
+                                <table>
+                                    <tr>
+                                        <td><button class="numbers"  value="1" onclick="insert('1')">1</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><button class="numbers"  value="2" onclick="insert('2')">2</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><button class="numbers"  value="3" onclick="insert('3')">3</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><button class="numbers"  value="-" onclick="insert('-')">-</button></td>
+                                    </tr>
+                                </table>
+                                <!--table 4-->
+                                <table>
+                                    <tr>
+                                        <td><button class="numbers"  value="." onclick="insert('.')">.</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><button class="numbers"  value="0" onclick="insert('0')">0</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><button class="numbers"  value="/" onclick="insert('/')">/</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><button class="numbers"  value="*" onclick="insert('*')">x</button></td>
+                                    </tr>
+                                </table>
+                                <!--table 5-->
+                                <table>
+                                    <tr>
+                                        <td><button class="double specials"  onclick="reset()">RESET</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><button class="double" id="calculate" onclick="calculate()">=</button></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
